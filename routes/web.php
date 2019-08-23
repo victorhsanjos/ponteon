@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/users', 'UserController@index');
+Route::post('/users', 'UserController@store');
+Route::delete('/users/{user}', 'UserController@destroy');
