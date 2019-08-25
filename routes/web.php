@@ -11,10 +11,14 @@
 |
 */
 
+use App\State;
+
 Route::get('/', function () {
-    return view('form');
+    return view('form', ['states' => State::all()]);
 });
 
 Route::get('/users', 'UserController@index');
 Route::post('/users', 'UserController@store');
 Route::delete('/users/{user}', 'UserController@destroy');
+
+Route::get('/state/{state}/cities', 'CityController');
