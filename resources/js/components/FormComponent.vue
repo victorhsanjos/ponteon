@@ -127,6 +127,7 @@ export default {
         .then(response => {
           this.state = "";
           this.displaySuccessMessage("Cadastro realizado com sucesso!");
+          this.$root.$emit('refresh-table')
         })
         .catch(response => this.displayErrorMessage("Cadastro não efetuado!"));
     },

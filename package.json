@@ -22,6 +22,8 @@
         "sass": "^1.15.2",
         "sass-loader": "^7.1.0",
         "vue": "^2.5.17",
-        "vue-template-compiler": "^2.6.10"
+        "vue-template-compiler": "^2.6.10",
+        "vuejs-dialog": "^1.4.1",
+        "vuetable-2": "^2.0.0-beta.4"
     }
 }
