@@ -11,7 +11,7 @@
             Listagem
         </div>
         <div class="card-body">
-            <table-component></table-componet>        
+            <table-component></table-component>        
         </div>
     </section>
 </div>
